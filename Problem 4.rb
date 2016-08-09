@@ -6,7 +6,7 @@ def palindromes(min, max)
       result << [number, i, j] if number == number.to_s.reverse.to_i
     end
   end
-  result.sort.last
+  result.sort
 end
 
-p palindromes(900, 999)
+p palindromes(900, 999).last

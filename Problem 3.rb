@@ -7,10 +7,7 @@ factor = prime.next()
 result = []
 
 while factor < number_sqrt do
-  if number % factor == 0
-    result << factor
-    number / factor
-  end
+  result << factor if number % factor == 0
   factor = prime.next()
 end
 

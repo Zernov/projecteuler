@@ -17,3 +17,6 @@ def sum_ap_fast(first, last, count)
 end
 
 p sum_ap_fast(3, 999, 333) + sum_ap_fast(5, 995, 199) - sum_ap_fast(15, 990, 66)
+
+#One string
+p (1 ... 1000).inject(0) { |sum, x| sum + ((x % 5 == 0 or x % 3 == 0) ? x : 0) }

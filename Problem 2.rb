@@ -8,9 +8,6 @@ end
 
 sum = 0
 
-fib(4000000) do |x|
-  if x % 2 == 0
-    sum += x
-    print x, " ", sum, "\n"
-  end
-end
+fib(4000000) { |x| sum += x if x % 2 == 0 }
+
+p sum

@@ -181,7 +181,7 @@ Which starting number, under one million, produces the longest chain?
 
 Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, there are exactly 6 routes to the bottom right corner.
 
-<div align="center">![Problem 15](https://projecteuler.net/project/images/p015.gif)</div>
+<div align="center"><img src="https://projecteuler.net/project/images/p015.gif"></div>
 
 <br />How many such routes are there through a 20×20 grid?
 
@@ -203,10 +203,10 @@ If all the numbers from 1 to 1000 (one thousand) inclusive were written out in w
 
 By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.
 
-<div align="center">**3**</div>
-<div align="center">**7** 4</div>
-<div align="center">2 **4** 6</div>
-<div align="center">8 5 **9** 3</div>
+<div align="center"><b>3</b></div>
+<div align="center"><b>7</b> 4</div>
+<div align="center">2 <b>4</b> 6</div>
+<div align="center">8 5 <b>9</b> 3</div>
 
 That is, 3 + 7 + 4 + 9 = 23.
 
@@ -229,3 +229,18 @@ Find the maximum total from top to bottom of the triangle below:
 <div align="center">04 62 98 27 23 09 70 98 73 93 38 53 60 04 23</div>
 
 <br />**NOTE:** As there are only 16384 routes, it is possible to solve this problem by trying every route. However, Problem 67, is the same challenge with a triangle containing one-hundred rows; it cannot be solved by brute force, and requires a clever method! ;o)
+
+## Problem 19
+
+You are given the following information, but you may prefer to do some research for yourself.
+
+- 1 Jan 1900 was a Monday.
+- Thirty days has September,
+April, June and November.
+All the rest have thirty-one,
+Saving February alone,
+Which has twenty-eight, rain or shine.
+And on leap years, twenty-nine.
+- A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400.
+
+How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?

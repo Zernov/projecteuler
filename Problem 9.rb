@@ -16,7 +16,7 @@ end
 
 def triplet(n)
   (1..n/3).each { |a| (a..n/2).each { |b| return a, b, (a**2 + b**2).sqrt if valid(a, b, n) } }
-  result
+  nil
 end
 
 p triplet(1000).inject(:*)

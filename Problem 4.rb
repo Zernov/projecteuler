@@ -1,12 +1,12 @@
 def palindromes(min, max)
-  result = []
+  result = 0
   (min..max).each do |i|
     (min..max).each do |j|
       number = i * j
-      result << [number, i, j] if number == number.to_s.reverse.to_i
+      result = number if number == number.to_s.reverse.to_i and number > result
     end
   end
-  result.sort
+  result
 end
 
-p palindromes(900, 999).last
+p palindromes(900, 999)

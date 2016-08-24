@@ -108,11 +108,11 @@ Find the product of the coefficients, a and b, for the quadratic expression that
 
 Starting with the number 1 and moving to the right in a clockwise direction a 5 by 5 spiral is formed as follows:
 
-<div align="center">**21** 22 23 24 **25**</div>
-<div align="center">20 **07** 08 **09** 10</div>
-<div align="center">19 06 **01** 02 11</div>
-<div align="center">18 **05** 04 **03** 12</div>
-<div align="center">**17** 16 15 14 **13**</div>
+<div align="center"><b>21</b> 22 23 24 <b>25</b></div>
+<div align="center">20 <b>07</b> 08 <b>09</b> 10</div>
+<div align="center">19 06 <b>01</b> 02 11</div>
+<div align="center">18 <b>05</b> 04 <b>03</b> 12</div>
+<div align="center"><b>17</b> 16 15 14 <b>13</b></div>
 
 <br />It can be verified that the sum of the numbers on the diagonals is 101.
 
